@@ -60,7 +60,7 @@ public abstract class BinaryExpression implements Expression {
 
 	@Override
 	public String toString() {
-		return (not ? "NOT " : "") + getLeftExpression() + " " + getStringExpression() + " " + getRightExpression();
+		return (not ? "NOT " : "") + "(" + getLeftExpression() + ") " + getStringExpression() + " (" + getRightExpression() + ")";
 	}
 
 	public abstract String getStringExpression();
