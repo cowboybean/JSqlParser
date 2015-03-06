@@ -11,6 +11,8 @@ JSqlParser is licensed under the **LGPL V2.1**.
 
 ## News
 
+Version **0.9.3-SNAPSHOT** where条件添加括号明确判断优先级。
+
 Version **0.9.2** released.
 
 Version **0.9.1** released.
